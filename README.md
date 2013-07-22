@@ -1,6 +1,13 @@
+FitBit Tools
+============
+
+These are my tools and libraries, which I use to manage and interact with
+the FitBit API. If you wish to use them, you will have to register a new
+app and get credentials from dev.fitbit.com, which is not a difficult task.
+
 
 Libraries
-=========
+---------
 
 These are libraries I use to deal with my FitBit data
 
@@ -10,7 +17,7 @@ These are libraries I use to deal with my FitBit data
 -   spark.py - creating sparklines for Twitter and other social media
 
 Configuration
-=============
+-------------
 
 I use YAML configuration files to keep from having to hardcode passwords
 and tokens into my code. These files show format only.
@@ -21,7 +28,7 @@ and tokens into my code. These files show format only.
 -   fitbit.txt - description of the MySQL table I use to store my FitBit data. Not valid SQL.
 
 Python
-======
+------
 
 -   fitbit.battery.py - checks current battery level and alerts if not "high"
 -   fitbit.date.py - full db download of FitBit data
@@ -31,7 +38,7 @@ Python
 -   fitbit.weight.py - uploads my weight via the FitBit API
 
 RScript
-=======
+-------
 
 I use R to generate plots of my FitBit data. I'm including two RScripts
 which run via crontab. My R is very remedial, and the plots could be made
@@ -41,7 +48,7 @@ much prettier with ggplot2 and similar libraries.
 -   fb_steps_week.rs
 
 Copyright and License
-=====================
+---------------------
 
 Copyright (c) 2013 David Jacoby (jacoby.david@gmail.com) and contributors
 
