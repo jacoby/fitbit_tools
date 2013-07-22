@@ -1,0 +1,8 @@
+---
+consumer_key: getYourConsumerKeyFromAPI.FITBIT.COM
+consumer_secret: getYourConsumerSecretFromAPI.FITBIT.COM
+default: YOUR_FITBIT_ID
+tokens:
+  YOUR_FITBIT_ID:
+    access_token: token
+    access_token_secret: secret

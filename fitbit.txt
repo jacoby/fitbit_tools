@@ -1,0 +1,7 @@
+Field       Type            Null        Key     Default     Extra
+datestamp   date            NO          PRI     NULL        
+floors      smallint(5)     unsigned    NO      0       
+steps       smallint(5)     unsigned    NO      0       
+miles       decimal(5,2)    unsigned    NO      0.00        
+kilometers  decimal(5,2)    unsigned    NO      0.00        
+

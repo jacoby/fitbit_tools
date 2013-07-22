@@ -1,0 +1,7 @@
+---
+clients:
+    default:
+        database    : db_name
+        host        : localhost
+        password    : password
+        user        : user
