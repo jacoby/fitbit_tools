@@ -150,5 +150,5 @@ def make_class( conf = '/home/jacoby/.fitbit.cnf' ):
         c_obj['consumer_secret'] ,
         c_obj[ 'default' ] ,
         c_obj[ 'tokens' ]
-        ) ;
+        ) 
     return fitbit

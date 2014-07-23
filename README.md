@@ -27,6 +27,14 @@ and tokens into my code. These files show format only.
 -   pushover.yml
 -   fitbit.txt - description of the MySQL table I use to store my FitBit data. Not valid SQL.
 
+When using these tools, you must create your own app on FitBit's dev site. For 
+"Application Type", choose Desktop, and if you want to use the weight upload 
+feature (or add other upload tasks), be sure to choose Read/Write as default 
+access type. Otherwise Read-Only is acceptable.
+
+Currently, I use FitBit's API Debug Tool (https://dev.fitbit.com/apps/oauthtutorialpage)
+to get access tokens and secrets, but I should and will create a tool that handles this.
+
 Python
 ------
 
