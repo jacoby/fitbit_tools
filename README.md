@@ -54,6 +54,7 @@ much prettier with ggplot2 and similar libraries.
 
 -   fb_floors_week.rs
 -   fb_steps_week.rs
+-   fitbit_heat_map.rs
 
 Copyright and License
 ---------------------
