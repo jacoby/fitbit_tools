@@ -1,4 +1,4 @@
-#!/home/jacoby/bin/R/R-2.14.2/bin/Rscript
+#!/usr/bin/env Rscript
 
 # This uses ggplot2 to create a heatmap of your FitBit steps. It is 
 # personalized to me, with my MySQL server and file system named. 
