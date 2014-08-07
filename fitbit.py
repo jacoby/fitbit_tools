@@ -33,9 +33,9 @@ from oauth import oauth
 
 class FitBit:
     SERVER = 'api.fitbit.com'
-    REQUEST_TOKEN_URL = 'http://%s/oauth/request_token' % SERVER
-    ACCESS_TOKEN_URL  = 'http://%s/oauth/access_token' % SERVER
-    AUTHORIZATION_URL = 'http://%s/oauth/authorize' % SERVER
+    REQUEST_TOKEN_URL = 'https://%s/oauth/request_token' % SERVER
+    ACCESS_TOKEN_URL  = 'https://%s/oauth/access_token' % SERVER
+    AUTHORIZATION_URL = 'https://%s/oauth/authorize' % SERVER
     def __init__(self,consumer_key,consumer_secret,default,tokens):
         self.consumer_key = consumer_key
         self.consumer_secret = consumer_secret
