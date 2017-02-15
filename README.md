@@ -1,4 +1,4 @@
-*NOTE* THis is was built before FitBit moved to OAuth 2.0 and no longer works
+*NOTICE* This is was built before FitBit moved to OAuth 2.0 and no longer works
 =============================================================================
 
 Try other libraries, such as https://github.com/orcasgit/python-fitbit
